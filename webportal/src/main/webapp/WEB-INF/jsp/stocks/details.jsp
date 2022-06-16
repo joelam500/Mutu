@@ -31,10 +31,6 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <%-- 
-                        1. Loop the content of orders list send from controller 
-                        Map to corresponding field with the column header
-                    --%>
                     <c:forEach var="orders" items="${stocksObj.ordersList}">
                         <tr>
                             <th scope="row">
